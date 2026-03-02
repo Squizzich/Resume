@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+            <div id="title-container" class="title">
+                ARSENIY KORNILOV
+            </div>
+            <div id="icons-container-right">
+                <a href="https://facebook.com" target="_blank">
+                    <div class="icon icon-facebook"></div>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <div class="icon icon-twitter"></div>
+                </a>
+                <a href="https://gmail.com" target="_blank">
+                    <div class="icon icon-last icon-gmail"></div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="portfolio-1" class="portfolio">
+            <div id="portfolio-container" class="portfolio-container">
+                <div class="portfolio-text-container portfolio-text-container-left">
+                    <div class="portfolio-text-title">INTERACTIVE RESUME</div>
+                    <div class="portfolio-text-body">
+                        Here will be some main information about my resume!
+                    </div>
+                    <a href="https://github.com/Squizzich" target="_blank">
+                        <div class="portfolio-text-button">VIEW GITHUB</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-container">
+            <div class="footer-column">
+                <div class="title">ABOUT</div>
+                <div class="avatar"></div>
+                <div class="text">Here will be an interesting text about me!</div>
+            </div>
+
+            <div class="footer-column">
+                <div class="title">HOME</div>
+                <div class="text">Just empty</div>
+            </div>
+
+            <div class="footer-column footer-column-last">
+                <div class="title">CONTACT</div>
+                <div class="text">If you have any questions about my services, feel free to contact me! Below are the social pages & my email</div>
+                <div>
+                    <a href="https://facebook.com" target="_blank">
+                        <div class="icon icon-facebook"></div>
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <div class="icon icon-twitter"></div>
+                    </a>
+                    <a href="https://gmail.com" target="_blank">
+                        <div class="icon icon-last icon-gmail"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
