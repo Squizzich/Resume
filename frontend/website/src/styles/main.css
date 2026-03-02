@@ -1,6 +1,8 @@
-body {
+html, body {
     margin: 0px;
     display: block;
+	padding: 0;
+	height: 100%;
 }
 
 a {
@@ -46,9 +48,9 @@ div {
 /* FONTS */
 @font-face {
     font-family: 'miso-bold';
-    src: url("../font/miso-bold.eot");
-    src: url('../font/miso-bold.woff') format('woff'),
-    url('../font/miso-bold.ttf') format('truetype');
+    src: url("font/miso-bold.eot");
+    src: url('font/miso-bold.woff') format('woff'),
+    url('font/miso-bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -72,15 +74,15 @@ div {
 }
 
 .icon-facebook {
-    background-image: url("../image/icon-facebook.png");
+    background-image: url("image/icon-facebook.png");
 }
 
 .icon-twitter {
-    background-image: url("../image/icon-twitter.png");
+    background-image: url("image/icon-twitter.png");
 }
 
 .icon-gmail {
-    background-image: url("../image/icon-gmail.png");
+    background-image: url("image/icon-gmail.png");
 }
 
 footer
@@ -123,7 +125,7 @@ footer
     margin-right: 20px;
     margin-bottom: 20px;
     float: left;
-    background-image: url("../image/avatar.png");
+    background-image: url("image/avatar.png");
 }
 
 .portfolio
@@ -135,7 +137,7 @@ footer
 
 #portfolio-1
 {
-	background-image: url(../image/ground.png);
+	background-image: url("image/ground.png");
 	background-repeat: repeat-x;
 	background-position: center bottom;
 	background-color: #00bff3;
@@ -152,7 +154,7 @@ footer
 
 #portfolio-container
 {
-	background-image: url(../image/interactive-resume.png);
+	background-image: url("image/interactive-resume.png");
 }
 
 .portfolio-text-body
