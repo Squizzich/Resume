@@ -1,17 +1,16 @@
-import { useState, useEffect } from 'react'
-import Header from "./components/Header"
-import Body from "./components/Body"
-import Footer from "./components/Footer"
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home.jsx"
+import Game from "./pages/Game.jsx"
 
 function App() {
-    return  (
-
-        <div>
-            <Header />
-            <Body />
-            <Footer />
-        </div>
-        )
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+          <Route path="/interactive-resume" element={<Game />} />
+      </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;

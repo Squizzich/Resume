@@ -14,6 +14,20 @@ function Body() {
                     </div>
                 </div>
             </div>
+
+            <div id="portfolio-2" className="portfolio">
+                <div id="portfolio-container-2" className="portfolio-container">
+                    <div className="portfolio-text-container portfolio-text-container-right">
+                        <div className="portfolio-text-title">ILLUSTRATION PORTFOLIO</div>
+                            <div className="portfolio-text-body">
+                                It is a website about my illustration works. It contains website, infographic and animation projects.
+                            </div>
+                        <a href="http://localhost:5173/interactive-resume" target="_blank">
+                            <div className="portfolio-text-button">VIEW WEBSITE</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </main>
     )
 }

@@ -171,7 +171,7 @@ footer
 {
 	position: relative;
 	display: inline-block;
-	padding: 12px;
+	padding: 12px 24px;
 	border-style: solid;
     border-width: 2px;
 	border-radius: 5px;
@@ -180,6 +180,19 @@ footer
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: bold;
+
+	transition: all 0.2s ease;
+	cursor: pointer;
+	box-shadow: 0 5px 0 #1a1a1a;
+}
+
+.portfolio-text-button:hover {
+	background: #2a2a2a;
+}
+
+.portfolio-text-button:active {
+	transform: translateY(5px);
+	box-shadow: 0 0 0 #1a1a1a;
 }
 
 .portfolio-text-container
@@ -212,4 +225,16 @@ footer
 	color: #cccccc;
 	line-height: 20px;
 	margin-bottom: 18px;
+}
+
+#portfolio-2 {
+	background-color: #f9bf3b;
+}
+
+#portfolio-container-2 {
+	background-image: url("image/illustration-portfolio.png");
+}
+
+.portfolio-text-container-right {
+	right: 0px;
 }
